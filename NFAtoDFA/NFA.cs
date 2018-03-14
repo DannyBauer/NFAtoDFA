@@ -17,10 +17,21 @@ namespace NFAtoDFA
     public class NFA
     {
         public int numberOfStates;
-        public string initialState;
+        public int initialState;
         public List<string> alphabet = new List<string>();
-        public List<string> finalStates = new List<string>();
+        public List<int> finalStates = new List<int>();
         public List<NFAState> states = new List<NFAState>();
 
+    }
+    public class DFAState
+    {
+        bool visited
+        public List<string> states = new List<string>();
+        public int stateNumber;
+    }
+
+    public class DFA
+    {
+     
     }
 }
