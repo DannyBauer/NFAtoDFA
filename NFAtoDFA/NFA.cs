@@ -25,13 +25,22 @@ namespace NFAtoDFA
     }
     public class DFAState
     {
-        bool visited
-        public List<string> states = new List<string>();
+        public bool visited;
+        public List<int> states = new List<int>();
         public int stateNumber;
     }
 
     public class DFA
     {
-     
+        public List<DFAState> states = new List<DFAState>();
+        public int allVisited(List<DFAState> States)
+        {
+            foreach(DFAState state in States)
+            {
+                if (state.visited == true)
+                    return state.stateNumber;
+            }
+            return -1;
+        }
     }
 }

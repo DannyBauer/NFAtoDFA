@@ -57,7 +57,16 @@ namespace NFAtoDFA
             int currentDFAState = 0;
             List<int> initialDFAState = new List<int>();
             initialDFAState.Add(nfa.initialState);
-
+            DFAState initialState = new DFAState();
+            initialState.visited = false;
+            initialState.states = initialDFAState;
+            dfa.states.Add(initialState);
+            currentDFAState++;
+            while (dfa.allVisited(dfa.states) != -1)
+            {
+                int currentState = dfa.allVisited(dfa.states);
+                dfa.states[currentState].visited = true;
+            }
         }
         //static void constructDFA(NFA nfa, DFA dfa)
         //{
