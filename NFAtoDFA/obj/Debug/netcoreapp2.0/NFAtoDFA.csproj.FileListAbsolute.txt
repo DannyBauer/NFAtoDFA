@@ -1,0 +1,11 @@
+c:\users\dbaue\source\repos\NFAtoDFA\NFAtoDFA\bin\Debug\netcoreapp2.0\NFAtoDFA.deps.json
+c:\users\dbaue\source\repos\NFAtoDFA\NFAtoDFA\bin\Debug\netcoreapp2.0\NFAtoDFA.runtimeconfig.json
+c:\users\dbaue\source\repos\NFAtoDFA\NFAtoDFA\bin\Debug\netcoreapp2.0\NFAtoDFA.runtimeconfig.dev.json
+c:\users\dbaue\source\repos\NFAtoDFA\NFAtoDFA\bin\Debug\netcoreapp2.0\NFAtoDFA.dll
+c:\users\dbaue\source\repos\NFAtoDFA\NFAtoDFA\bin\Debug\netcoreapp2.0\NFAtoDFA.pdb
+c:\users\dbaue\source\repos\NFAtoDFA\NFAtoDFA\obj\Debug\netcoreapp2.0\NFAtoDFA.csprojResolveAssemblyReference.cache
+c:\users\dbaue\source\repos\NFAtoDFA\NFAtoDFA\obj\Debug\netcoreapp2.0\NFAtoDFA.csproj.CoreCompileInputs.cache
+c:\users\dbaue\source\repos\NFAtoDFA\NFAtoDFA\obj\Debug\netcoreapp2.0\NFAtoDFA.AssemblyInfoInputs.cache
+c:\users\dbaue\source\repos\NFAtoDFA\NFAtoDFA\obj\Debug\netcoreapp2.0\NFAtoDFA.AssemblyInfo.cs
+c:\users\dbaue\source\repos\NFAtoDFA\NFAtoDFA\obj\Debug\netcoreapp2.0\NFAtoDFA.dll
+c:\users\dbaue\source\repos\NFAtoDFA\NFAtoDFA\obj\Debug\netcoreapp2.0\NFAtoDFA.pdb
