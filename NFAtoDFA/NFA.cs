@@ -4,15 +4,15 @@ using System.Text;
 
 namespace NFAtoDFA
 {
+    public class NFATransition
+    {
+        public string transition;
+        public int transitionState;
+    }
     public class NFAState
     {
-        public string state, transition, transitionState;
-        public void newState(string State, string Transition, string TransitionState)
-        {
-            state = State;
-            transition = Transition;
-            transitionState = TransitionState;
-        }
+        public int state;
+        public List<NFATransition> transitions = new List<NFATransition>();
     }
     public class NFA
     {
@@ -23,24 +23,24 @@ namespace NFAtoDFA
         public List<NFAState> states = new List<NFAState>();
 
     }
+
+    public class DFATransition
+    {
+        public List<int> transitionStates = new List<int>();
+        public string transition;
+    }
     public class DFAState
     {
-        public bool visited;
         public List<int> states = new List<int>();
-        public int stateNumber;
+        public List<DFATransition> transitions = new List<DFATransition>();
     }
 
     public class DFA
     {
+        public int numberOfStates;
+        public int initialState;
+        public List<string> alphabet = new List<string>();
+        public List<int> finalStates = new List<int>();
         public List<DFAState> states = new List<DFAState>();
-        public int allVisited(List<DFAState> States)
-        {
-            foreach(DFAState state in States)
-            {
-                if (state.visited == true)
-                    return state.stateNumber;
-            }
-            return -1;
-        }
     }
 }
